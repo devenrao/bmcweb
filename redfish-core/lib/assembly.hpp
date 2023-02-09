@@ -567,7 +567,7 @@ inline void fillWithAssemblyId(
     const std::string& assemblyParentServ,
     const sdbusplus::message::object_path& assemblyParentObjPath,
     const std::string& assemblyParentIface,
-    const nlohmann::json_pointer<nlohmann::json>& assemblyUriPropPath,
+    const nlohmann::json::json_pointer& assemblyUriPropPath,
     const sdbusplus::message::object_path& assembledObjPath,
     const std::string& assembledUriVal)
 {
